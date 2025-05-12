@@ -31,6 +31,7 @@ function App() {
           {view === "home" ? "View Bookmarks" : "Back"}
         </button>
       </div>
+      
       {view === "home" ? (
         articles.map((article) => (
           <ArticleCard
